@@ -1,1 +1,22 @@
-css
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorBtn{
+    padding: 0.25rem 0.5rem;
+    border: 3px red solid;
+    border-radius: 5px;
+    color: azure;
+    background: hotpink;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    outline: none;
+}
+
+.colorBtn:hover{
+    background: black;
+}
