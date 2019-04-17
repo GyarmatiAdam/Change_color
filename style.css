@@ -5,6 +5,16 @@ body{
     align-items: center;
 }
 
+.container{
+    text-align: center;
+}
+.bckgrcolor{
+    font-size: 38px;
+}
+.col{
+    font-size: 40px;
+}
+
 .colorBtn{
     padding: 0.25rem 0.5rem;
     border: 3px red solid;
@@ -18,5 +28,21 @@ body{
 }
 
 .colorBtn:hover{
+    background: black;
+}
+
+.hexBtn{
+    padding: 0.25rem 0.5rem;
+    border: 3px red solid;
+    border-radius: 5px;
+    color: azure;
+    background: hotpink;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    outline: none;
+}
+
+.hexBtn:hover{
     background: black;
 }
